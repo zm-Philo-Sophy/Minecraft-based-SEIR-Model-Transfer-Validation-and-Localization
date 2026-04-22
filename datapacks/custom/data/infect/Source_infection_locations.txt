@@ -1,0 +1,43 @@
+#source infection locations in each city
+#Edinburgh OG
+-2048.8993965390755 61.0 -34996.465962337046
+
+#Edinburgh IN3 water pump stations
+-2052 61 -34998 - underneath graveyard
+-2011 65 -34990 - far east of city
+
+-2039 63 -35014 - near train station [not going to use]
+
+#Glasgow
+-2612.6507073827765 63.0 -34941.200916085494
+
+#Kirkaldy
+-1986.678186129225 65.0 -35131.4376958971
+
+#Dundee
+-2630.7874945148274 95.0 -35588.78157500731
+
+#Inverness
+-2648.575587468731 63.0 -35965.471195527425
+
+#Tobermory
+
+
+Armor Stand has the following entity data: {Brain: {memories: {}}, HurtByTimestamp: 0, Invulnerable: 0b, FallFlying: 0b, ShowArms: 0b, PortalCooldown: 0, AbsorptionAmount: 0.0f, DisabledSlots: 0, DeathTime: 0s, Pose: {}, Invisible: 1b, UUID: [I; 635666141, 2129150742, -1852927424, -1279969541], Tags: ["source_glas", "source"], Motion: [0.0d, -0.0784000015258789d, 0.0d], Small: 0b, Health: 20.0f, fall_distance: 0.0d, Air: 300s, OnGround: 1b, Rotation: [0.0f, 0.0f], Pos: [-2612.6507073827765d, 63.0d, -34941.200916085494d], Fire: 0s, NoBasePlate: 0b, attributes: [{id: "minecraft:movement_speed", base: 0.699999988079071d}], HurtTime: 0s}
+
+
+
+Both these will detect the right thing, the second one only if the tag is first though
+#/execute if items entity @s hotbar.* *[minecraft:custom_data~{VillagerTags:[recovered_edin]}] run say found!
+#execute as @p run tellraw @a ["", {"text":"URL: ","color":"dark_green"}, {"nbt":"SelectedItem.components.minecraft:custom_data.VillagerTags.[0]", "entity":"@s", "interpret":true}]
+
+
+
+#Could I alter meeting point X Y Z to promote pie shop use??
+
+A rule based model of Epidemics using Minecraft
+
+
+#Vaccinated immunocompromised are able to become susceptible again?
+#Need to make them more likely to die in both locations
+#slow recovery rate in these ppl too

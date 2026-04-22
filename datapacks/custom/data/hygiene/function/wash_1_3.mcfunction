@@ -1,0 +1,1 @@
+execute store result score @s wash run random value 1..3

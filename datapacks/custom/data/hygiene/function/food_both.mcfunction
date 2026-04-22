@@ -1,0 +1,1 @@
+execute store result score @s food run random value 1..2
