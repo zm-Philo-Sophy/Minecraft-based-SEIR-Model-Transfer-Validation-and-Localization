@@ -1,0 +1,53 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 10,
+          "functions": [
+			{
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TTTTGGGGCC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{URL: www.salmonella1.com}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

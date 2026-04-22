@@ -1,0 +1,449 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: E.faecalis_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GAACGCTATTGCCTGCAAAATTGGCGGGAGACTGGTTTTCTAACAGCTTAGAAGGTGTGACGGGGAAAGACTCTTACGAAGCGTTGCAAGGTGTTTGGATCATGGAAATGGGCGAATTGTCAGCGACAAAAGCA}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:177}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: E.faecalis_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:CACAAACATATAAGACGCAATTGCGGCCTTTTACGAGAGAGGTTGCCGTTATTTGCAATTTGATGATACAAATTGGGCGTTTCTAGCGATCAGACAAAACAAGAAAGAATTACGAG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:260}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: E.faecalis_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:CAACATTGGTTTCGGTCTTCACAGGTATCTTTTTCGGAATTATTCCAGCAATTGGTGCTTCGAGGATGGATCCGATTAAAGCGATTTATAATTAA}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:392}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: E.faecalis_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:ATCAATTTGAACATACATTCGTTACGATTCAATGTTTGGGGCAAAAATCGTTGCAACTGACAGGCAGTATATATGAACGATTATTACACTGAAGATAATTATACAGAG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:405}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: E.faecalis_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TATTACTGTTCCAGCAGGTAAAATCAAGTTAGATGGCACGACAGGGTTTGGCTTAATGCGGCGGATGCGTCACGAAGATCCTGAACGGAGATGTGGGTCGTCAACGCCGCCAACGAGATAGTTGT}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:562}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: B.fragilis_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:CTTATATGTTCCGAAGTATACTCAAGTCTGCTGTCGATGAATATATATCCTTGGATCAAACAAGCATGGTGAGCTGATGAAGATCTATTGTTCCATTCACAAGGCTCTTCTTGGAAACATTCCGGGAAGACTATACAAAC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:603}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: B.fragilis_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TCAGTTCATGCATATACTACACTGAACTTTCTGTTTGAGATAGAAGCAAATACTGTCCAAACATGTCGTAG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:750}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: B.fragilis_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GAACGTGAAATGGTACTAACCTCTTCCTGACGGCTGCCAAATGCCATACCGCTGGCGTTCATCAACTGCAAGTAGTCAATGATGATAATTCTTACTCCATGC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:857}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: B.fragilis_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TAAGGCCAAAATATCCCATAGGCAATACGAAGGAGGAGGCTACTCAGCCAAAGGTATTTATCGCCCGGCATTCGACTGCCGCATGCGTACGCAACGA}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:929}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease: B.fragilis_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GTCAGAAGCACTAAACTTAGAGCCTTTAGCTATGACTCAGCTCCCAAGTAGTCTTTCACGCCGCTGAGATACCTTTCCTTCTG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:1062}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

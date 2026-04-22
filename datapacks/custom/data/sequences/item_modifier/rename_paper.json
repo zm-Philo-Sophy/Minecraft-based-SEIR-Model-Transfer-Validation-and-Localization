@@ -1,0 +1,8 @@
+{
+  "function": "minecraft:set_name",
+  "name": {
+    "text": "Your Custom Name Here",
+    "color": "gold",
+    "italic": false
+  }
+}

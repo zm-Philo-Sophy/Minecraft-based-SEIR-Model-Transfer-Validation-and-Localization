@@ -1,0 +1,1299 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:none}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"NO SEQUENCE FOUND\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"N/A\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2325",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:susceptible}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:none}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"NO SEQUENCE FOUND\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"N/A\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2310",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ATGTCAGAGAAAGAAATTTGGGATAAAGTATTAGAAATTGCCCAGGAAAGAATATCATACACTAGTTATCAAACGTCATAAAA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681030530\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2318",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_6}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"AACGGCGAGGGCGCGAAGAGAATATAAACCGGGTCGGCGGCGTAAATCAGCCACAGCAGTACACAAGGCCACCAGCGCAATGCCAAGTGGCGCCGGTTTTCGCGCCTGGAATATCGGGCTCAGATAGATCGAACCGC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/2242617579\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2304",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"AGCCTACCAATATTTGGATAGAAGGGAATCCTTACTACCCAAGCAGGTTTCAAGCAGGAGTGATGAAAGGAGTTGGCCCAGCAGTGCCAGGAGACTGTGGTGGGATATTGAGATGTATACATGGCCGCATTGGATTGTTGACAGCTGGAGGCAGTGGATATGTTTGTATTGCT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2302",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TGATCCTGATGTGTTTTGGGTCTGTTATTCCTTGCTTAATGGATGGGCACCTTATGGCATTTGACTACTCCAATTTTGGATGCTTCCTTGTCACCAGTTTGGTTTGTTTGTCTAGAGAATAGTTTTAACTAAATTGGGCTTTGCAG\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2332",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[susceptible]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_10}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"GAACTATCACTTGATGACACCAGAGGACCATCACATCTGATAGCATCCTACCCAAGTAGAGATTTAGCAGTAGTTTCAACAGAGGACATGGTGCAGATAACAATACCTCACTGTAAATTGCACTTCAGGTGTCTACTACT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2308",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TGAAACTTAATACACTCCAATTAGAGATTATCGTAACTATGACAGGTGACATTAGATTGTCATCCCGACGTGAATATCCTTATTGGTGAGAACGCACAAGGAATAGACAAATTTACTTGAATCAATTTATACCTTAGCGCT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681030533\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2334",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_8}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTTTGGGGCC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2317",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:none}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"NO SEQUENCE FOUND\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"N/A\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2305",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CCAACTGATCGCCGACGAGGCGGTCAAACTGGGCGTGCGCGCCAAAGCGCACAACATCCCGAGCCTGAAGCTGGAGTATGGCACGCTGGTGCCGATGCGCTACATGAACAGCGACAAGCACTTCAAAGTGGTCTCCATATCGGCGTTCTGCACTGTGCATGATTTGCCGACAGCCGCAAACTGGGCGAAGCCATTCTCAAGGCGATTGAGAAATATGACGGTACCGTAGCGGTATTCGCCAGTGGTTCTCTGTCGCACCGTTT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502276\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2323",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTGAGGCTTGTGCTATAGTGACAGAGTGCAACAAATTACACTTGGAAACTCAACAATAACAACACAAGAAGCAGCCATTGCTGTTGTGTGTTATGCTGAATGGCCAGAGTACCTTCCAGATGTAGACGCCAGTTGATGTCAACAAAACATCGAAACCAGACACTTCTGTTTGCAGATTTATACACTGGATAGCAAAACATGGACAACAGGT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2312",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_10}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTTTGGGGCC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2331",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[exposed_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ACAGCTAGTATCATCTTGTTCTTGATGGACGTTCGATCAGGTGGATTTCCCCCCACTAGTTTGGTCGATGAGGCTAGGAGCTCCCCACGGGTGACCGTGTCCTAGCTGCGTGGCGGCCAACCCAGCTCATGCTGGGAC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2314",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CCGCCATAGCCGTGGCCTGGCGTGCCAGACGATGGCACATAACACTGTCTACCGACTGTTGGTCGAACCAGGCCAACAGAACCTGTTCTATACTATTTAATATGATGCGCGGCGTGATCGACCAATGAACGAAATTGATTATCATCTTCTTGTAAATGTTTACATGTTGTTCCAGCCATTCTACTTCCATCTT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502796\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2319",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ACACCTGTCAGTCATGATGCTTAACGCGCTGAACGGCAACCTCAGCTTGTCCGGCGGCGTCTTTGTCG\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502823\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2303",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ATGACTGATGACGTCGCCGTGGTGGACGTTTCCCTCCGGGGTGTGGGCGCTGATTTCCCACAGTGAGGACCACGAGCCGACATCGCTCCAGCCCGCGTCCATTGGCATCACCACCGCGTCCGCCGTCCGCTCCATCACCGCGTAGTCAATGGACTCTTCCGGACAGGGGAGGAAGGCCTCTTCATCCACGCGAATGATGTCAAGATCCGGATCGACGCCGCGCATCGCCTGTTCACAGGCGGCCAGAATATCGGGGCGGAACTTTTTCAGCTCTTCCAGATAGCGTCCGGGCGGAATAGAAACATGCCGCTGTTCCAGTAGTAATCGCCCGCTGGCGACGTAGGCCTGGGCGGTTTCCAGCCCCGGCTTCTCAA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16503334\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2307",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"GCCGGCAAAACCGATGGGCCCGAATGATTATATGGTTATCGGGCTTGCCCGTATTGATGAGCGCCTCATTCACGGTCAGGTCGCTACCCGCTGGACCAAAGAGACCAATGTCAGCCGTATTATTGTTGTGAGCGATGTAGTCGCGGCGGATACCGTACGTAAACGCTGCTGACGCAAGTTGCGCCGCCGGGCGTTACGGCGCATGTGGTTGACG\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16503016\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2326",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTGGATAAACTCAAGATCTTGGCCTATGGTGATGATTTGATTGTTCTTACCCCTAGAACTAGATCCACAGGTGTTAGCAACTCTAGGGAATAATTACGGATTAACTATCACACCACCAGATAAATCTGAAACCTTTACAA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2320",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TGAACAATTCCATACGTTAATAACATCAGGTCATTCAGAATTTAACTTAAGTGGACTAGATCCTGATCAATATCATTA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681030531\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2309",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[infectious_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_6}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CGAGGCTGGTACACAGCGCCTGAAATGACGTCAGGCCGCCTGGCTGCGGGCTAAGCTGCCTTTCAGACTGCGGCTAAATTGGCGAATATAACGAAACTGAATGAATCCGGTACGCCAGGTAAACCAACATCCTGCGCCGAGCAGCAGGTAAATCATTACCGAGCCTCCAGAGTATTTCGTTAATATAACTGAATAACTCAGGCAT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16501289\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2321",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_6}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CATAGACATTACAACTAGTGCAGGATTCCCCTATGTGAGTCTTGGAATCAAGAATAGAGATATTCTAAATAATGAGACCCAGGACACAGAGAAAATGAAATTCTATCTGGATAAGTATGGCATAGATTTGCCCCTAGTTA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2322",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CTTGATATCATGTTACCTGGTAGTGATGTATGGAAGTATGTCGTGAAGTGCGTAATAAAGTATGAAATGCCGATTATCATCCTGACAGCGAAAGATTCTGAAATTGATAAAGTATTAGGCCTTGATTTAGGTGCAGTGATT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681030547\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2330",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_8}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"GAAGCCCTAGCCAGGAGATTTGGTTATGATCTAGATATATGTTTACACACTACTTACACTAAGAATGGAAACTTAATGCAGCATGTCAACCAAGACATCAAAAGATTGTCATCAACCATCCAACTTCAAGAAATGCTGTTC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2311",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:none}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"NO SEQUENCE FOUND\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"N/A\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2333",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"AATATAGTTTCGTTTATCCAAACCGTTCAGGAGATTTATTTGCGACGCAAAACATGCCTGATATTACAAAAGATAATATGATTTTGCTAAAGTTATAAAAACCGATAGAGACGGTGGCACATATTGACGTAGCACTC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681031851\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2328",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_7}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTACCGCCTTGAGCGCCTGCTGATCCCGCTTTGCAAGGTAGGCCGCGATTGCTTCATGGGGTGGGCAATG\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/2242617329\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2327",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[recovered_edin]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:none}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"NO SEQUENCE FOUND\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"N/A\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2306",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:commensals_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ATGTCAGAGAAAGAAATTTGGGATAAAGTATTAGAAATTGCCCAGGAAAGAATATCATACACTAGTTATCAAACGTCATAAAA\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/1681030530\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2329",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_7}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TCAGAAAATATGGCAGGATCTCACATCCTGGCGATTTGGAAAATCACATTATTGTGGGTCTTCACAACCATGGTCTTTCCGGACCTCTTACTCTTTTCCGTCAAGAGGAATCATACACTATTAGTGGCGCTGTTAATGTTCATT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16501584\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2324",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_8}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TTAGATAGATATTTATTTACCCCCGCGGTGAGAGACGGAAGTCTGACCGTCAGCCCCGTACAAGGTCGGCTCCTGGTGAGGTTTCAGCAC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502341\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2313",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_9}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"ACCGTATGTGGATTCGCTGGCGAATTTAGCGTCCGGCTGCGATGCGGTCTTCGTCCACTCCAGTACCGCAAGGCCATTATGCCGTGGTCAGCGAACTTCTCAACGCTGGCGTCCATGTCTGCGTGGATAAACCGCTGCGGATAATCTACGTGAGCCGAACGGCTGGTGGCGCTGGCGGCGCAATAAAATTGACGCTGATGGTTGGCTTTAATACGCCGTTTCGCGCCGCTGTACCGCGATACTGAAGACGCGCCTCGGCACTGCGGCGTCACTGCGTTGGATAAACATCGTACCGATAGCATCGGGCCGCATGACTTACGTTTTACTTTGCCGATGACTATCTGCATGTCGTGGATACGG\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502339\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2316",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_10}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"TGACCGTTCGTGCGGAACTGGGAACGCAACTGAGCGAACTCAGTACGCTGGATCACTGGGAAGCGTCCGTGCGCTGGGACAGAAGCTACAGATGAGCAACCTGGTAAGATGTGGACTGGAACTCGGTCATTTCCTCCTACGTCATGC\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502354\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2301",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:rv_9}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"AATGGATAAAAACAAGTACTCCCTCAAGCCAAGGAAAAGCTGGAATTTTGCAGTAAATTGAAGCAACTTGACATACTAGACGAGACAAATAACCACCATGCATATCTCAAACCCAAACACAGGAAAAACGAGAACAGCTGT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"www.salmonella1.com\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2315",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{VillagerTags:[dead]}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:salmonella_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:\"CCAACTGATCGCCGACGAGGCGGTCAAACTGGGCGTGCGCGCCAAAGCGCACAACATCCCGAGCCTGAAGCTGGAGTATGGCACGCTGGTGCCGATGCGCTACATGAACAGCGACAAGCACTTCAAAGTGGTCTCCATATCGGCGTTCTGCACTGTGCATGATTTGCCGACAGCCGCAAACTGGGCGAAGCCATTCTCAAGGCGATTGAGAAATATGACGGTACCGTAGCGGTATTCGCCAGTGGTTCTCTGTCGCACCGTTT\"}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"https://www.ncbi.nlm.nih.gov/protein/16502276\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "name": {
+                "text": "2335",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

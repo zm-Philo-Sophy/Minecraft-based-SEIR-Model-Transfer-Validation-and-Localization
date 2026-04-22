@@ -1,0 +1,449 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_1}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TTGCCTCGGTAGTACCTATTGACAGTAGCGATTAAGTGTTAAACACTCAAAGTGAGTTGGCAGTTATAGCAATACCCACTTAGGGTTAACGCTTGGCATATATGTTTACTGACAACATAAGTTTGAAGTCCTCGCTCGTACGCCATTTCA}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"A043BA\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_2}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GTCCCAACAGATCTGTTTGCATCAGGCTACCGCTACAAGGTGCTACCGTTACCGGATTTTTAATCACTTTGTGGTGTTCGACACCTTTTGCAGCGCAAGGCTGTGGGTAGAAGTGAAACGGGGTATACCGATAAAGACAGAAAATGATAA}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"398BB6\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_3}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:CAATACGAACCACAAAGTGTCCAAGGCCCAGATGGCTTCCCGGTCACTGGCCCTCGTGATGGCAAAATTGCCAGTGCTGAATCGGCACTGGCGGCAGCCCTGGATGAGCAAACCGCCGACCGTTGGGTAAAGCGCCCAATTCAAGCTGGC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"52F511\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_4}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GTAGATACTCTCGGTCTAAATTTGGACTAACTTGGTTAAGCATCACAATGTTCGTACAACTTCTCTGTATAGGGCTAATTTGGTCTTTAATATGGAGAATGGAAGTAGATGATTTATTTACCATATGTCGGTGTTGGACACATAATTTAC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"1E14AE\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_5}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:GTCCAACCGATGGCAAAATCAGTTTCAATGGTCATGATATTACTCGGATCCAAAACAAGGGTTATTTCCCTTTTTTACGCCGCAATATTTGGGATTGTGTTTCGCGACCATCGCCTTTTTGATGGATCGCAGCATCTATGACAATGTCGC}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"CFDD67\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_6}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:AAAGCAGATGGTGGAGTTATTGGCTCGCCGGCTGGCATTGGTGGAGCAAGTCGGGCAACTGAAAAGCCGCTATGGCTTGCCAATTTTATGCCCCGATCGTGAAGCGGCAATGCTCGCTTCACGTCGAGCGGAAGCGGAAAGCAAAGG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"4EA92B\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_7}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:TTGGAGCAGATTGCTGCGCGTTGGCAACTGCAAGCCAGTGATGACAAGCCAATTTGCTTTGATACTCAGCGAAGAGCGCCTTGAGCTACGCAAATTAGATGAACCTAAACTGGAGGCCATTTACGTCGATTGGGTAGAAGG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"8ADC30\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_8}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:ACTTACAAATGAGTGCTTGGTGTGAAGACAAAGGCTTTGACGGAGGTGCAGAGTTTTTACGCGCTCACGCGGTCGAACAAATGCAGCACATGCAGCGTCTGTTCACTTATGTGAGTGAAACCGGTGCATTGCCAATCCTTGGTGCGATCG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"E5A6E7\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_9}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:CGAAATTGCTAAAGAGCTGGGTCTCCGTTCGGCAAATGCGGCTGAAGAACACCTTCAAAGCGCTGGCTCGTAAACAAGTGATTGAAATGGTGCCCGGCGCCTCACGCGGGATCCGCATCCTCGTCGATAATGCCGCAAACGAAGAAGAAG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"49E63F\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:paper",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:copy_custom_data",
+              "source": "this",
+              "ops": [
+                {
+                  "source": "Tags",
+                  "target": "VillagerTags",
+                  "op": "replace"
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Disease:vibrio_10}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{Sequence:ATGCTAAAACGTCACGTCGTCCAAATAATGCTCGCTTTGGGCTTCATTATTCCATTTCCATAGCCATGCGGAAGCGAAATCTGCTGTACCTCAGTTGGCTTATTTCACTTTAAACCCGGATCTCACCACCAATTTTTTTTACCAAAGG}"
+            },
+            {
+              "function": "minecraft:set_custom_data",
+              "tag": "{UUID:\"2A9697\"}"
+            },
+            {
+              "function": "minecraft:set_name",
+              "entity": "this",
+              "name": {
+                "score": {
+                  "objective": "VillagerID",
+                  "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+                },
+                "type": "score",
+                "color": "#9811a2",
+                "bold": true
+              },
+              "target": "custom_name"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "function": "minecraft:set_name",
+  "entity": "this",
+  "name": {
+    "score": {
+      "objective": "VillagerID",
+      "name": "@e[type=villager,sort=nearest,limit=1,distance=..3]"
+    },
+    "type": "score",
+    "color": "#9811a2",
+    "bold": true
+  },
+  "target": "custom_name",
+  "conditions": []
+}
