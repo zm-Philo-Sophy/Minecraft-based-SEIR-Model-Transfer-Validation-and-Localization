@@ -1,0 +1,17 @@
+execute if block -3774 65 -35452 warped_button[powered=true] if score tobe_stern Ferry_Doors = zero Ferry_Doors run setblock -3775 62 -35452 repeating_command_block{auto:1,Command:"function ferry:tobe_stern_open"}
+execute if block -3774 65 -35447 warped_button[powered=true] if score tobe_stern Ferry_Doors = zero Ferry_Doors run setblock -3775 62 -35452 repeating_command_block{auto:1,Command:"function ferry:tobe_stern_open"}
+execute if block -3774 65 -35463 warped_button[powered=true] if score tobe_bow Ferry_Doors = zero Ferry_Doors run setblock -3775 62 -35463 repeating_command_block{auto:1,Command:"function ferry:tobe_bow_open"}
+execute if block -3435 65 -35305 warped_button[powered=true] if score port_stern Ferry_Doors = zero Ferry_Doors run setblock -3436 62 -35305 repeating_command_block{auto:1,Command:"function ferry:port_stern_open"}
+execute if block -3435 65 -35316 warped_button[powered=true] if score port_bow Ferry_Doors = zero Ferry_Doors run setblock -3436 62 -35316 repeating_command_block{auto:1,Command:"function ferry:port_bow_open"}
+execute if block -3438 65 -35320 warped_button[powered=true] if score port_bow Ferry_Doors = zero Ferry_Doors run setblock -3436 62 -35316 repeating_command_block{auto:1,Command:"function ferry:port_bow_open"}
+execute if block -3774 65 -35452 warped_button[powered=true] if score tobe_stern Ferry_Doors = max Ferry_Doors run setblock -3775 62 -35452 repeating_command_block{auto:1,Command:"function ferry:tobe_stern_close"}
+execute if block -3774 65 -35447 warped_button[powered=true] if score tobe_stern Ferry_Doors = max Ferry_Doors run setblock -3775 62 -35452 repeating_command_block{auto:1,Command:"function ferry:tobe_stern_close"}
+execute if block -3774 65 -35463 warped_button[powered=true] if score tobe_bow Ferry_Doors = max Ferry_Doors run setblock -3775 62 -35463 repeating_command_block{auto:1,Command:"function ferry:tobe_bow_close"}
+execute if block -3435 65 -35305 warped_button[powered=true] if score port_stern Ferry_Doors = max Ferry_Doors run setblock -3436 62 -35305 repeating_command_block{auto:1,Command:"function ferry:port_stern_close"}
+execute if block -3435 65 -35316 warped_button[powered=true] if score port_bow Ferry_Doors = max Ferry_Doors run setblock -3436 62 -35316 repeating_command_block{auto:1,Command:"function ferry:port_bow_close"}
+execute if block -3438 65 -35320 warped_button[powered=true] if score port_bow Ferry_Doors = max Ferry_Doors run setblock -3436 62 -35316 repeating_command_block{auto:1,Command:"function ferry:port_bow_close"}
+#close door if player moves away
+execute as @e[type=armor_stand,tag=ferry_tobe] at @s if entity @p[sort=nearest,distance=25..] if score tobe_stern Ferry_Doors = max Ferry_Doors run setblock -3775 62 -35452 repeating_command_block{auto:1,Command:"function ferry:tobe_stern_close"}
+execute as @e[type=armor_stand,tag=ferry_tobe] at @s if entity @p[sort=nearest,distance=25..] if score tobe_bow Ferry_Doors = max Ferry_Doors run setblock -3775 62 -35463 repeating_command_block{auto:1,Command:"function ferry:tobe_bow_close"}
+execute as @e[type=armor_stand,tag=ferry_port] at @s if entity @p[sort=nearest,distance=25..] if score port_stern Ferry_Doors = max Ferry_Doors run setblock -3436 62 -35305 repeating_command_block{auto:1,Command:"function ferry:port_stern_close"}
+execute as @e[type=armor_stand,tag=ferry_port] at @s if entity @p[sort=nearest,distance=25..] if score port_bow Ferry_Doors = max Ferry_Doors run setblock -3436 62 -35316 repeating_command_block{auto:1,Command:"function ferry:port_bow_close"}
