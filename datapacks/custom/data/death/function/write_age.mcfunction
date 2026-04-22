@@ -1,0 +1,1 @@
+data modify block ~ ~ ~ front_text.messages[3] set value '{"text":"Age: ","color":"white","extra":[{"score":{"name":"@e[type=villager,tag=dead,limit=1,sort=nearest]","objective":"Age"}}]}'
