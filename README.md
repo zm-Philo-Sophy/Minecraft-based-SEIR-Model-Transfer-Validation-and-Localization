@@ -5,7 +5,7 @@ To begin with, download the Minecraft China Edition at mc.163.com.
 
 In Netease Minecraft Game Launcher, create a new world of java edition 1.21. Quit the game and find the world file’s location. Take HP laptop as an example: "C:\MCLDownload\Game\.minecraft\saves", open the world folder.
 
-Download and copy all the files (except for the README instruction) in this GitHub repository and paste them into the world folder. Start the game, go into the world, and there it is.
+Download and copy all the files (except for the README.md and the "Python scripts" folder) in this GitHub repository and paste them into the world folder. Start the game, go into the world, and there it is.
 
 To choose Edinburgh or Glasgow to start infection:
 
