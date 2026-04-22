@@ -1,0 +1,5 @@
+execute as @e[type=villager,sort=nearest,limit=1,distance=..3,tag=glas] at @s if score @s bell_igm matches 0 run function antibody:igm
+execute as @e[type=villager,sort=nearest,limit=1,distance=..3,tag=glas] at @s if score @s bell_igg matches 0 run function antibody:igg
+execute as @e[type=villager,sort=nearest,limit=1,distance=..3,tag=glas] at @s if score @s bell_iga matches 0 run function antibody:iga
+#one line reporting of all findings
+execute as @e[type=villager,sort=nearest,limit=1,distance=..3,tag=glas] at @s unless score @s bell_igm matches 0 run tellraw @p ["",{"text":"IgM:","color":"red"},{"text":" "},{"score":{"name":"@s","objective":"bell_igm"}},{"text":" mg/dL","color":"gray"},{"text":" | "},{"text":"IgG:","color":"red"},{"text":" "},{"score":{"name":"@s","objective":"bell_igg"}},{"text":" mg/dL","color":"gray"},{"text":" | "},{"text":"IgA:","color":"red"},{"text":" "},{"score":{"name":"@s","objective":"bell_iga"}},{"text":" mg/dL","color":"gray"}]
