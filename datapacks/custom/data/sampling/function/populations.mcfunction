@@ -1,0 +1,36 @@
+#Total number of villagers
+execute store result score dundee Population run execute if entity @e[type=villager,tag=dund]
+execute store result score edinburgh Population run execute if entity @e[type=villager,tag=edin]
+execute store result score kirkaldy Population run execute if entity @e[type=villager,tag=fife]
+execute store result score glasgow Population run execute if entity @e[type=villager,tag=glas]
+execute store result score inverness Population run execute if entity @e[type=villager,tag=inve]
+execute store result score tobemory Population run execute if entity @e[type=villager,tag=tobe]
+#count susceptible villagers
+execute store result score dundee Healthy_Count run execute if entity @e[type=villager,tag=dund,tag=susceptible]
+execute store result score edinburgh Healthy_Count run execute if entity @e[type=villager,tag=edin,tag=susceptible]
+execute store result score kirkaldy Healthy_Count run execute if entity @e[type=villager,tag=fife,tag=susceptible]
+execute store result score glasgow Healthy_Count run execute if entity @e[type=villager,tag=glas,tag=susceptible]
+execute store result score inverness Healthy_Count run execute if entity @e[type=villager,tag=inve,tag=susceptible]
+execute store result score tobemory Healthy_Count run execute if entity @e[type=villager,tag=tobe,tag=susceptible]
+#count exposed villagers
+execute store result score dundee Exposed_Count run execute if entity @e[type=villager,tag=exposed_dund]
+execute store result score edinburgh Exposed_Count run execute if entity @e[type=villager,tag=exposed_edin]
+execute store result score kirkaldy Exposed_Count run execute if entity @e[type=villager,tag=exposed_fife]
+execute store result score glasgow Exposed_Count run execute if entity @e[type=villager,tag=exposed_glas]
+execute store result score inverness Exposed_Count run execute if entity @e[type=villager,tag=exposed_inve]
+execute store result score tobemory Exposed_Count run execute if entity @e[type=villager,tag=exposed_tobe]
+# Count infected villagers
+execute store result score dundee Sick_Count run execute if entity @e[type=villager,tag=infectious_dund]
+execute store result score edinburgh Sick_Count run execute if entity @e[type=villager,tag=infectious_edin]
+execute store result score kirkaldy Sick_Count run execute if entity @e[type=villager,tag=infectious_fife]
+execute store result score glasgow Sick_Count run execute if entity @e[type=villager,tag=infectious_glas]
+execute store result score inverness Sick_Count run execute if entity @e[type=villager,tag=infectious_inve]
+execute store result score tobemory Sick_Count run execute if entity @e[type=villager,tag=infectious_tobe]
+#count recovered villagers
+execute store result score dundee Recovered_Count run execute if entity @e[type=villager,tag=recovered_dund]
+execute store result score edinburgh Recovered_Count run execute if entity @e[type=villager,tag=recovered_edin]
+execute store result score kirkaldy Recovered_Count run execute if entity @e[type=villager,tag=recovered_fife]
+execute store result score glasgow Recovered_Count run execute if entity @e[type=villager,tag=recovered_glas]
+execute store result score inverness Recovered_Count run execute if entity @e[type=villager,tag=recovered_inve]
+execute store result score tobemory Recovered_Count run execute if entity @e[type=villager,tag=recovered_tobe]
+
