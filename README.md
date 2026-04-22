@@ -26,3 +26,15 @@ Enter "datapacks\custom\data\infect\predicate"
 To find the experimental record:
 
 "MCLDownload\Game\.minecraft\logs\latest.log"
+
+To translate the experimental record to CSV data:
+
+In the GitHub repository, "Python scripts\latest_to_csv.ipynb"
+
+To produce the figures in the thesis:
+
+In the GitHub repository, "Python scripts\MC_ODE_Final_Script_Edin.ipynb" and "Python scripts\MC_ODE_Final_Script_Edin.ipynb"
+
+To produce the tables:
+
+In the GitHub repository, "Python scripts\tables.ipynb"
