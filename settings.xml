@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Settings>
+  <PathToPBF>C:\Users\rfitzpa2\Documents\EarthTiles\great-britain-latest.osm.pbf</PathToPBF>
+  <OverpassURL />
+  <WorldName>Scotland</WorldName>
+  <BlocksPerTile>5632</BlocksPerTile>
+  <TilesPerMap>9</TilesPerMap>
+  <VerticalScale>50</VerticalScale>
+  <Terrain>Standard</Terrain>
+  <Heightmap_Error_Correction>true</Heightmap_Error_Correction>
+  <bordersBoolean>true</bordersBoolean>
+  <borders>Current</borders>
+  <geofabrik>true</geofabrik>
+  <bathymetry>false</bathymetry>
+  <TerrainSource>Arcgis</TerrainSource>
+  <biomeSource>Terrestrial Ecoregions (WWF)</biomeSource>
+  <highways>true</highways>
+  <streets>true</streets>
+  <small_streets>false</small_streets>
+  <buildings>true</buildings>
+  <ores>true</ores>
+  <netherite>true</netherite>
+  <farms>false</farms>
+  <meadows>false</meadows>
+  <quarrys>false</quarrys>
+  <forests>false</forests>
+  <aerodrome>true</aerodrome>
+  <mobSpawner>true</mobSpawner>
+  <animalSpawner>true</animalSpawner>
+  <riversBoolean>true</riversBoolean>
+  <rivers>Major</rivers>
+  <streams>false</streams>
+  <volcanos>true</volcanos>
+  <shrubs>true</shrubs>
+  <crops>true</crops>
+  <MapVersion>1.18</MapVersion>
+  <mapOffset>0</mapOffset>
+  <lowerBuildLimit>-64</lowerBuildLimit>
+  <upperBuildLimit>320</upperBuildLimit>
+  <vanillaPopulation>false</vanillaPopulation>
+  <mod_BOP>false</mod_BOP>
+  <mod_BYG>false</mod_BYG>
+  <mod_Terralith>false</mod_Terralith>
+  <mod_Create>false</mod_Create>
+  <custom_layers />
+  <terrainModifier>0</terrainModifier>
+  <oreModifier>8</oreModifier>
+</Settings>
