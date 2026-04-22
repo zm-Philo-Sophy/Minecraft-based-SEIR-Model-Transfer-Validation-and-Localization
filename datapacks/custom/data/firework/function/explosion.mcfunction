@@ -1,0 +1,19 @@
+#this is the second function triggered when someone steps on the Calton Hill pressure plate
+#every tick add one to the fireworks clock
+scoreboard players add timer Fireworks 1
+#this is a list of rockets to get set off at certain times
+execute if score timer Fireworks = 1 Fireworks run summon firework_rocket -2052 72 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;12801229]}]}}}}
+execute if score timer Fireworks = 2 Fireworks run summon firework_rocket -2055 71 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;4312372],FadeColors:[I;14602026]}]}}}}
+execute if score timer Fireworks = 3 Fireworks run summon firework_rocket -2052 72 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;2651799],FadeColors:[I;15790320]}]}}}}
+execute if score timer Fireworks = 3 Fireworks run summon firework_rocket -2052 72 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:3,Flicker:1,Trail:1,Colors:[I;15790320],FadeColors:[I;15790320]}]}}}}
+execute if score timer Fireworks = 4 Fireworks run summon firework_rocket -2050 71 -35010 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;15435844],FadeColors:[I;14602026]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2052 72 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;14602026],FadeColors:[I;15435844]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2052 72 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;12801229],FadeColors:[I;14188952]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2050 71 -35010 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;14188952],FadeColors:[I;15435844]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2050 71 -35010 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;12801229]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2055 71 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:1,Flicker:1,Trail:1,Colors:[I;14188952],FadeColors:[I;15435844]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2055 71 -35012 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:3,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;11743532],FadeColors:[I;12801229]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2052 71 -35007 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:2,Flicker:1,Trail:1,Colors:[I;14602026],FadeColors:[I;15435844]}]}}}}
+execute if score timer Fireworks = 5 Fireworks run summon firework_rocket -2052 71 -35007 {LifeTime:15,FireworksItem:{id:firework_rocket,Count:1,tag:{Fireworks:{Flight:2,Explosions:[{Type:0,Flicker:1,Trail:1,Colors:[I;12801229],FadeColors:[I;14188952]}]}}}}
+#once show is over replace command block with the initial function
+execute if score timer Fireworks = end Fireworks run setblock ~ ~ ~ command_block{auto:0,Command:"function firework:start"}
