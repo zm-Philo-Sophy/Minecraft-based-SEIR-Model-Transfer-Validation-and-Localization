@@ -25,7 +25,7 @@ Enter "datapacks\custom\data\infect\predicate"
 
 To find the experimental record:
 
-"MCLDownload\Game\.minecraft\logs\latest.log"
+"MCLDownload\Game\.minecraft\logs\latest.log", copy the record for the first 900 second of every run and paste them in a new DOCX file.
 
 To translate the experimental record to CSV data:
 
